@@ -20,4 +20,4 @@ def calcpi(n):
     pi = cs*4
     return pi
 
-print(calcpi(900000000))
+print(calcpi(int(input("How many points would you like to use?\n"))))
